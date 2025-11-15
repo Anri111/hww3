@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "./components/Navbar.jsx";
-import TodoList from "./components/ToDoList.jsx";
+import Navbar from './components/NavBar'
+import TodoList from "./components/TodoList";
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(
